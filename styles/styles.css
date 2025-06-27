@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*fuente playfair */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:wght@400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*LOGO*/
+
+.logo {
+    width: 150px;
+    ;
+
+}
+
+/* NAV */
+
+.btn-outline-success{
+  background-color: rgb(249, 173, 186);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  
+}
+
+.btn-outline-success:hover{
+
+ background-color: rgb(247, 83, 138);  /* un poco más oscuro */
+
+}
+.navbar-brand {
+    background-color: rgb(251, 235, 254);
+    border: none;
+}
+
+.bg-navbar-propio {
+
+    background-color: rgb(251, 235, 254);
+    padding: 10px;
+
+
+}
+
+.navbar-toggler {
+    color: rgb(244, 179, 244);
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    padding: 8px;
+
+}
+
+/*MAIN*/
+
+h1 {
+
+    color: rgb(151, 85, 107);
+    font-size: 42px;
+    font-family: "Playfair; Display", serif;
+    text-decoration: overline;
+    text-align: center;
+
+
+}
+
+p {
+    font-size: 20px;
+    /*fuente arvo*/
+
+    font-family: "Montserrat", sans-serif;
+
+    margin: 40px 40px;
+
+
+
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(76, 48, 76);
+    text-decoration: underline;
+    padding: 40px 40px;
+    text-align: center;
+}
+
+h3 {
+    font: size 38px;
+    ;
+    color: rgb(76, 48, 76);
+    margin: 26px;
+
+}
+
+
+a {
+    display: inline-block;
+    margin: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: rgb(255, 217, 247);
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+.form {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 35px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.button-envio {
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: rgb(247, 189, 189);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/*Imagenes de conjunto atenea*/
+
+.atenea {
+    width: 500px;
+}
+
+
+.colora1 {
+
+    font-size: 15px;
+    background-color: #f7f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.opcion {
+
+    font-size: 15px;
+    border: 1px solid black;
+    background-color: hsl(0, 82%, 96%);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+.talle {
+    font-size: 15px;
+    background-color: lab(94.35% 2.69 0.95);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.talles {
+    font-size: 15px;
+    border: 1px solid black;
+    background-color: #fbe5e5;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+body {
+    margin: 0 32 px;
+}
+
+header {
+    padding-top: 16px;
+}
+
+.img1 {
+    width: 500px;
+
+}
+
+.img2 {
+    width: 500px;
+}
+
+.button-atenea {
+
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: rgb(247, 189, 189);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.button-coleccion {
+
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: rgb(247, 189, 189);
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: rgb(244, 202, 251);
+    text-align: center;
+}

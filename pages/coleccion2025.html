@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="../styles/styles.css">
+  <title> APNEA </title>
+</head>
+
+<body>
+
+  <!--logo y nav-->
+  <header>
+
+    <nav class="navbar navbar-expand-lg bg-navbar-propio">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img src="../img/logo.jpg" alt="logo" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Colección 2025</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="dropdown-item" href="./guiaDeTalles.html">Guia de talles</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="dropdown-item" href="./envios.html">Envios</a>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li>
+              <a class="dropdown-item" href="./contacto.html">Contacto</a>
+            </li>
+
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="¿que estas  buscando?" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+  </header>
+
+  <!--CONTENIDO-->
+
+  <main>
+    <section class="grid-container">
+      <article>
+
+        <h1> COLECCIÓN 2025</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolor earum repellat esse facilis sit
+          consectetur nulla obcaecati qui, itaque exce</p>
+
+      </article>
+
+      <article>
+
+        <h2>CONJUNTO ATENEA</h2>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://i.pinimg.com/736x/c2/6f/d5/c26fd5e1c227437b355695cebdfeaefe.jpg" class="atenea"
+                alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.pinimg.com/736x/b4/62/3b/b4623ba1455e39614a4f4c520b66dec7.jpg" class="atenea"
+                alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.pinimg.com/736x/a5/d6/ae/a5d6ae45b2bd56c528051b3661ab008f.jpg" class="atenea"
+                alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://i.pinimg.com/736x/4c/7e/a5/4c7ea580a3c3bbd53be2465856e1efc9.jpg" class="cherry"
+                alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.pinimg.com/736x/85/c1/3e/85c13e3d7c7838c72e55342e0fa68fa5.jpg" class="cherry"
+                alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.pinimg.com/736x/e4/52/a1/e452a138412e9518cb079bf302b4b1a4.jpg" class="cherry"
+                alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
+
+        <label for="color" class="colora1">Color</label>
+        <select class="opcion" id="color" name="color">
+          <option value="negro"> Negro</option>
+          <option value="blanco"> Blanco</option>
+          <option vale="rojo">Rojo</option>
+
+        </select>
+
+        <label for="talle" class="talle">Talle</label>
+        <select id="TALLES" class="talles" name="talles">
+          <option value="s">S</option>
+          <option value="m">M</option>
+          <option value="l">L</option>
+          <option value="xl">XL</option>
+        </select>
+
+    </section>
+
+
+    </article>
+
+
+  </main>
+
+  <!-- pie de pagina-->
+
+
+  <footer class="footer">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+
+    </div>
+    <img src="../img/logo.jpg" alt="logo" class="logo">
+
+
+  </footer>
+
+  <!-- Bootstrap JS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title> APNEA </title>
+</head>
+
+<body>
+
+    <!--logo y nav-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-navbar-propio">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../img/logo.jpg" alt="logo" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./coleccion2025.html">Colección 2025</a>
+                        </li>
+                        <li><a class="dropdown-item" href="./guiaDeTalles.html">Guia de talles</a></li>
+                        <li><a class="dropdown-item" href="#">Envios</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="./contacto.html">Contacto</a></li>
+                    </ul>
+                    </li>
+                    </ul>
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="¿que estas buscando?"
+                            aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1>Completa tus datos</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, voluptates porro. Rem voluptates,
+            doloribus in, cum cumque quibusdam consequatur sint totam fugiat voluptate excepturi deserunt debitis,
+            dolores aliquam ipsum quos.
+            Excepturi exercitationem quo, doloribus temporibus, dignissimos sint blanditiis officia minima voluptatem
+            laboriosam quos reprehenderit, vitae quas maiores dolor? Corporis explicabo et molestias neque harum sit
+            saepe exercitationem voluptate fuga dolore.
+            Excepturi molestiae rerum nostrum sunt dignissimos modi. Minima numquam repellat deserunt est molestias
+            optio nam repudiandae odit recusandae exercitationem animi placeat unde, quae inventore fuga fugiat id!
+            Omnis, suscipit harum!
+            Laudantium itaque, perspiciatis porro quam dicta iusto? Accusantium molestiae iste non repellendus
+            praesentium cum, enim eligendi. Quidem aut ipsam, ipsum qui ratione obcaecati ullam nobis repellat expedita.
+            Quis, fugit tenetur.
+            Excepturi praesentium ratione modi mollitia necessitatibus asperiores reiciendis obcaecati veritatis non
+            beatae, aut </p>
+
+        <h2>Datos de envio</h2>
+
+        <form action="/enviar-datos" method="post">
+
+            <h3> Datos personales</h3>
+
+            <section class="form">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="inputname" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="inputname">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputname" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="inputname">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">E-mail</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress2" class="form-label">Telefono</label>
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">Ciudad</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label">Provincia</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Cordoba</option>
+                            <option>Buenos Aires</option>
+                            <option>Santa Fe</option>
+                            <option>Mendoza</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputZip" class="form-label">Codigo Postal</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Acepto terminos y condiciones
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Continuar con la compra</button>
+                    </div>
+                </form>
+
+
+
+
+
+
+
+
+            </section>
+
+
+        </form>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+
+        </div>
+        <img src="../img/logo.jpg" alt="logo" class="logo">
+
+
+    </footer>
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
