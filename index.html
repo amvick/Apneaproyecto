@@ -52,7 +52,7 @@
               <a class="dropdown-item" href="./pages/contacto.html">Contacto</a>
             </li>
           </ul>
-         
+
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="¿que estas  buscando?" aria-label="Search" />
             <button class="btn btn-outline-success" type="submit">Buscar</button>
@@ -65,37 +65,51 @@
 
   <!-- Contenido-->
   <main>
-    <section>
-      <h1>APNEA LENCERIA FEMENINA</h1>
+    <section class="container">
 
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias neque illo iusto, odio in at perspiciatis
-        obcaecati recusandae nam reprehenderit tempor</p>
-
-      <img src="https://i.pinimg.com/736x/ab/6c/d6/ab6cd679dfc61122a96d4e141aee4b8d.jpg" class="img1">
-      <a href="" class="button-atenea">Conjunto Atenea</a>
-
-    </section>
-
-    <section>
-
-      <h2>COLECCIÓN 2025</h2>
-
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-
-      <img src="https://i.pinimg.com/736x/05/87/84/0587845b626c8c80b0fb299e17276632.jpg" class="img2">
-
-      <a href="" class="button-coleccion">Mira toda la colección</a>
-    </section>
-
-    <section>
-
-      <h2>SPORT</h2>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis ab vitae rerum aspernatur, doloribus
-        inventore voluptate</p>
-      <img src="https://i.pinimg.com/736x/04/17/51/041751619fb126912ef8283569fa6a1a.jpg">
-
-
-      <a href="">Entrená con Apnea </a>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/bodyencaje.jpg" class="d-block w-100" alt="bodyencaje" style="max-width: 700px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mira toda la colección</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/conjuntobordo.jpg" class="d-block w-100" alt="conjuntohera" style="max-width: 700px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Conjunto Hera</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.pinimg.com/736x/73/28/d0/7328d0ad78a1061633872b1b00d8c4cb.jpg" class="d-block w-100" alt="..."  style=" max-width: 700px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Entrená con Apnea</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, facere porro? Et, impedit? .</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
     </section>
 
