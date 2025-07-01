@@ -82,9 +82,7 @@
     justify-content: space-around;
     align-items: center;
 }
-.nav-item:hover{
-    color: rgb(247, 83, 138);  /* un poco más oscuro */
-}
+
 
 /*MAIN*/
 
@@ -146,9 +144,12 @@ h3 {
     padding: 10px;
     border-radius: 8px;
 }
+/*IMAGENES DE COLECCION2025*/
 
 .atenea{
-    max-width: 800px;
+  object-fit: cover;     
+  height: auto;          
+  max-height: 90vh;      
    
 }
 
@@ -163,35 +164,8 @@ h3 {
 
 }
 
-.opcion {
 
-    font-size: 15px;
-    border: 1px solid black;
-    background-color: hsl(0, 82%, 96%);
-    padding: 10px;
-    border-radius: 8px;
-    text-align: center;
 
-}
-
-.talle {
-    font-size: 15px;
-    background-color: lab(94.35% 2.69 0.95);
-    padding: 10px;
-    border-radius: 8px;
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-
-}
-
-.talles {
-    font-size: 15px;
-    border: 1px solid black;
-    background-color: #fbe5e5;
-    padding: 10px;
-    border-radius: 8px;
-    text-align: center;
-}
 
 body {
     margin: 0 32 px;
@@ -226,6 +200,13 @@ header {
     justify-content: center;
 
 }
+.form-select{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    background-color:rgb(246, 221, 229) ;
+
+}
 
 .main-content{
     margin-top: 80px;
@@ -234,12 +215,18 @@ header {
     align-items: center;
     gap: 80px;
 }
+
 /*MEDIA QUERIES*/
 
-@media (max-widht: 430px){
+@media (max-widht: 430px ){
 
+  
 
+    
+  
 }
+
+
     
 
 
@@ -247,9 +234,12 @@ header {
 
 @media (max-widht: 768px){
 
+     .atenea {
+    max-height: 600px;
+
 }
 
-
+}
 
 /* FOOTER */
 
