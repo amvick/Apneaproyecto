@@ -82,6 +82,9 @@
     justify-content: space-around;
     align-items: center;
 }
+.nav-item:hover{
+    color: rgb(247, 83, 138);  /* un poco más oscuro */
+}
 
 /*MAIN*/
 
