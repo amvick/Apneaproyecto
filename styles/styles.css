@@ -14,26 +14,28 @@
 
 .logo {
     width: 150px;
-    
+
 
 }
 
 /* NAV */
 
-.btn-outline-success{
-  background-color: rgb(249, 173, 186);
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 5px;
-  
-}
-
-.btn-outline-success:hover{
-
- background-color: rgb(247, 83, 138);  /* un poco más oscuro */
+.btn-outline-success {
+    background-color: rgb(249, 173, 186);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
 
 }
+
+.btn-outline-success:hover {
+
+    background-color: rgb(247, 83, 138);
+    /* un poco más oscuro */
+
+}
+
 .navbar-brand {
     background-color: rgb(251, 235, 254);
     border: none;
@@ -42,41 +44,45 @@
 .bg-navbar-propio {
 
     background-color: rgb(251, 235, 254);
-   
+
 
 
 }
-.button-compra{
-  background-color: rgb(249, 173, 186);
-  color: white;
-  border: none;
-  padding: 8px 30px;
-  border-radius: 5px;
- 
-}
-.button-compra:hover{
-    background-color: rgb(247, 83, 138);  /* un poco más oscuro */
+
+.button-compra {
+    background-color: rgb(249, 173, 186);
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+
 }
 
-.form-control{
+.button-compra:hover {
+    background-color: rgb(247, 83, 138);
+    /* un poco más oscuro */
+}
+
+.form-control {
     background-color: rgb(252, 245, 245);
     padding: 8px 16px;
     border-radius: 5px;
     font-family: Montserrat, sans-serif;
-  
+
 }
 
 .navbar-toggler {
     color: rgb(244, 179, 244);
 }
 
-.nav-link{
+.nav-link {
     color: rgb(67, 3, 71);
     font-size: 18px;
     font-family: Montserrat, sans-serif;
 
 }
-.nav-item{
+
+.nav-item {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -144,13 +150,14 @@ h3 {
     padding: 10px;
     border-radius: 8px;
 }
+
 /*IMAGENES DE COLECCION2025*/
 
-.atenea{
-  object-fit: cover;     
-  height: auto;          
-  max-height: 90vh;      
-   
+.atenea {
+    object-fit: cover;
+    height: auto;
+    max-height: 90vh;
+
 }
 
 
@@ -163,21 +170,24 @@ h3 {
     font-family: "Montserrat", sans-serif;
 
 }
-.img-ig{
+
+.img-ig {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
 
 }
-.button-card{
+
+.button-card {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    background-color:rgb(211, 165, 180); 
+    background-color: rgb(211, 165, 180);
 }
-.card-text{
+
+.card-text {
     font-family: "Playfair; Display", serif;
-    text-align: center ;
-    
-    
+    text-align: center;
+
+
 }
 
 body {
@@ -207,21 +217,23 @@ header {
     border-radius: 8px;
 
 }
-.conjunto-atenea{
+
+.conjunto-atenea {
     display: flexbox;
     flex-direction: row;
     justify-content: center;
 
 }
-.form-select{
+
+.form-select {
     color: black;
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
-    background-color:rgb(246, 221, 229) ;
+    background-color: rgb(246, 221, 229);
 
 }
 
-.main-content{
+.main-content {
     margin-top: 80px;
     display: flex;
     flex-direction: row;
@@ -231,26 +243,20 @@ header {
 
 /*MEDIA QUERIES*/
 
-@media (max-widht: 430px ){
-
-  
-
-    
-  
-}
-
-
-    
+@media (max-widht: 430px) {}
 
 
 
 
-@media (max-widht: 768px){
 
-     .atenea {
-    max-height: 600px;
 
-}
+
+@media (max-widht: 768px) {
+
+    .atenea {
+        max-height: 600px;
+
+    }
 
 }
 
@@ -260,4 +266,3 @@ header {
     background-color: rgb(244, 202, 251);
     text-align: center;
 }
-
