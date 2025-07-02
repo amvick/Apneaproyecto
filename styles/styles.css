@@ -163,9 +163,22 @@ h3 {
     font-family: "Montserrat", sans-serif;
 
 }
+.img-ig{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
 
-
-
+}
+.button-card{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    background-color:rgb(211, 165, 180); 
+}
+.card-text{
+    font-family: "Playfair; Display", serif;
+    text-align: center ;
+    
+    
+}
 
 body {
     margin: 0 32 px;
