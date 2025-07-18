@@ -2,3 +2,7 @@
 @use "./partials/base/reset.scss";
 @use "./partials/base/tipografias";
 
+//COMPONENTS 
+@use "./partials/components/navbar";
+@use "./partials/components/general";
+@use "./partials/components/footer";

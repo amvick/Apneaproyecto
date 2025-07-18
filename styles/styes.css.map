@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/main.scss","../scss/partials/base/_tipografias.scss","../scss/partials/base/reset.scss"],"names":[],"mappings":"AAAA;ACAQ;AAEA;ACFR;EACI;EACA","file":"styes.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/main.scss","../scss/partials/base/_tipografias.scss","../scss/partials/base/reset.scss","../scss/partials/components/_navbar.scss"],"names":[],"mappings":"AAAA;ACAQ;AAEA;ACFR;EACI;EACA;;;ACFJ;EACI;;;AAEJ;EACI;EACA;EACA","file":"styes.css"}
