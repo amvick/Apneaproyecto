@@ -10,8 +10,77 @@
   width: 150px;
 }
 
-.h1 {
-  color: aqua;
+.btn-outline-success {
+  background-color: rgb(249, 173, 186);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+.btn-outline-success:hover {
+  color: rgb(242, 158, 172);
+}
+
+.navbar-brand {
+  background-color: rgb(235, 235, 254);
+  border: none;
+}
+
+.bg-navbar-propio {
+  background-color: rgb(251, 235, 254);
+}
+
+h1 {
+  color: rgb(151, 85, 107);
+  font-size: 42px;
+  font-family: "Playfair; Display", serif;
+  text-decoration: overline;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin: 40px 40px;
+}
+
+h2 {
+  font-size: 40px;
+  color: rgb(76, 48, 76);
+  text-decoration: underline;
+  padding: 40px 40px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 38px;
+  color: rgb(76, 48, 76);
+  margin: 26px;
+}
+
+.footer {
+  background-color: rgb(244, 202, 251);
+  text-align: center;
+}
+
+.form {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+}
+
+.button {
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: rgb(247, 189, 189);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.button-card {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  background-color: rgb(211, 165, 180);
 }
 
 /*# sourceMappingURL=styles.css.map */

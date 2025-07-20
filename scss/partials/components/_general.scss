@@ -1,3 +1,24 @@
-.h1{
-    color: aqua;
+h1 {
+    color: rgb(151, 85, 107);
+    font-size: 42px;
+    font-family: "Playfair; Display", serif;
+    text-decoration: overline;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    margin: 40px 40px;
+}
+h2 {
+    font-size: 40px;
+    color: rgb(76, 48, 76);
+    text-decoration: underline;
+    padding: 40px 40px;
+    text-align: center;
+}
+h3 {
+    font-size: 38px;
+    color: rgb(76, 48, 76);
+    margin: 26px;
 }
