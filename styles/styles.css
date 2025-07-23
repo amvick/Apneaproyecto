@@ -30,8 +30,23 @@
   background-color: rgb(251, 235, 254);
 }
 
+.btn-outline-success {
+  background-color: rgb(239, 200, 206);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+.btn-outline-success:hover {
+  background-color: rgb(255, 199, 209);
+}
+
+.bg-navbar-propio {
+  background-color: rgb(239, 200, 206);
+}
+
 h1 {
-  color: rgb(151, 85, 107);
+  color: rgb(38, 9, 31) L;
   font-size: 42px;
   font-family: "Playfair; Display", serif;
   text-decoration: overline;
@@ -42,6 +57,8 @@ p {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   margin: 40px 40px;
+  color: rgb(38, 9, 31) L;
+  padding: 16px;
 }
 
 h2 {
@@ -54,33 +71,54 @@ h2 {
 
 h3 {
   font-size: 38px;
-  color: rgb(76, 48, 76);
-  margin: 26px;
+  color: rgb(174, 127, 186);
+  align-items: center;
+  padding: 16px;
+}
+
+.figure-img {
+  width: 300px;
+}
+
+body {
+  background-color: rgb(255, 253, 250);
+}
+
+.img-instagram {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
+}
+
+.envios {
+  align-items: center;
 }
 
 .footer {
-  background-color: rgb(244, 202, 251);
+  background-color: rgb(239, 200, 206);
   text-align: center;
 }
 
-.form {
+.form, .form-select {
   color: black;
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
-}
-
-.button {
-  font-size: 20px;
-  border: 1px solid black;
-  background-color: rgb(247, 189, 189);
-  padding: 10px;
   border-radius: 8px;
 }
 
-.button-card {
+.button, .button-compra, .button-card {
+  color: black;
+  font-size: 18px;
+  border: 1px solid rgb(11, 11, 11);
+  background-color: rgb(208, 133, 146);
+  padding: 10px 20px;
+  border-radius: 8px;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  background-color: rgb(211, 165, 180);
+}
+.button:hover, .button-compra:hover, .button-card:hover {
+  background-color: rgb(255, 199, 209);
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -2,4 +2,9 @@
     color: black;
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
+    border-radius: 8px;
+}
+.form-select{
+    @extend .form
+  
 }

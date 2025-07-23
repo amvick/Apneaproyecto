@@ -1,4 +1,5 @@
+@use"../utilities/variables";
 .footer {
-    background-color: rgb(244, 202, 251);
+    background-color: variables.$color-nav;
     text-align: center;
 }

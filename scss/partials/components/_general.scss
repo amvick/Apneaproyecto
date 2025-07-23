@@ -1,5 +1,22 @@
+@use "../utilities/variables";
+
+.btn-outline-success {
+  background-color: variables.$color-nav;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  &:hover{
+    background-color: variables.$color-hover;
+  }
+}
+
+.bg-navbar-propio {
+  background-color: variables.$color-nav;
+}
+
 h1 {
-    color: rgb(151, 85, 107);
+    color: variables.$color-title;
     font-size: 42px;
     font-family: "Playfair; Display", serif;
     text-decoration: overline;
@@ -9,6 +26,8 @@ p {
     font-size: 20px;
     font-family: "Montserrat", sans-serif;
     margin: 40px 40px;
+    color: variables.$color-title;
+    padding: 16px;
 }
 h2 {
     font-size: 40px;
@@ -19,6 +38,26 @@ h2 {
 }
 h3 {
     font-size: 38px;
-    color: rgb(76, 48, 76);
-    margin: 26px;
+    color: variables.$color-principal;
+    align-items: center;
+    padding: 16px;
+   
+}
+.figure-img{
+    width: 300px;
+}
+
+body{
+    background-color: variables.$color-fondo;
+
+}
+.img-instagram{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+}
+.envios{
+    align-items: center;
 }
