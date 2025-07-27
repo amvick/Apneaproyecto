@@ -10,39 +10,24 @@
   width: 150px;
 }
 
-.btn-outline-success {
-  background-color: rgb(249, 173, 186);
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 5px;
-}
-.btn-outline-success:hover {
-  color: rgb(242, 158, 172);
-}
-
 .navbar-brand {
-  background-color: rgb(235, 235, 254);
+  background-color: rgb(249, 236, 236);
   border: none;
 }
 
 .bg-navbar-propio {
-  background-color: rgb(251, 235, 254);
+  background-color: rgb(249, 236, 236);
 }
 
 .btn-outline-success {
-  background-color: rgb(239, 200, 206);
+  background-color: rgb(249, 236, 236);
   color: white;
   border: none;
   padding: 8px 16px;
   border-radius: 5px;
 }
 .btn-outline-success:hover {
-  background-color: rgb(255, 199, 209);
-}
-
-.bg-navbar-propio {
-  background-color: rgb(239, 200, 206);
+  background-color: rgb(247, 180, 193);
 }
 
 h1 {
@@ -84,20 +69,29 @@ body {
   background-color: rgb(255, 253, 250);
 }
 
-.img-instagram {
-  margin-top: 80px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 80px;
-}
-
 .envios {
   align-items: center;
 }
 
+.img-instagram {
+  max-width: 350px;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  padding: 30px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-container {
+  align-items: center;
+  flex-direction: column;
+}
+
+/*MEDIA QUERIES*/
 .footer {
-  background-color: rgb(239, 200, 206);
+  background-color: rgb(249, 236, 236);
   text-align: center;
 }
 
@@ -108,7 +102,7 @@ body {
   border-radius: 8px;
 }
 
-.button, .button-compra, .button-card {
+.button, .btn-outline-success, .button-compra, .button-card {
   color: black;
   font-size: 18px;
   border: 1px solid rgb(11, 11, 11);
@@ -117,8 +111,8 @@ body {
   border-radius: 8px;
   font-family: "Montserrat", sans-serif;
 }
-.button:hover, .button-compra:hover, .button-card:hover {
-  background-color: rgb(255, 199, 209);
+.button:hover, .btn-outline-success:hover, .button-compra:hover, .button-card:hover {
+  background-color: rgb(247, 180, 193);
 }
 
 /*# sourceMappingURL=styles.css.map */

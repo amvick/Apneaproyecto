@@ -2,24 +2,12 @@
 .logo{
     width: 150px;
 }
-.btn-outline-success {
-    background-color: rgb(249, 173, 186);
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 5px;
-    &:hover {color: rgb(242, 158, 172);}
-
-}
-
 
 .navbar-brand {
-    background-color: rgb(235, 235, 254);
+    background-color: variables.$color-nav;
     border: none;
 }
 
 .bg-navbar-propio {
-
-    background-color: rgb(251, 235, 254);
-
+    background-color: variables.$color-nav
 }

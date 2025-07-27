@@ -11,9 +11,6 @@
   }
 }
 
-.bg-navbar-propio {
-  background-color: variables.$color-nav;
-}
 
 h1 {
     color: variables.$color-title;
@@ -49,15 +46,38 @@ h3 {
 
 body{
     background-color: variables.$color-fondo;
+    
 
-}
-.img-instagram{
-    margin-top: 80px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 80px;
 }
 .envios{
     align-items: center;
+}
+.img-instagram{
+    max-width: 350px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 30px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.grid-container{
+    align-items: center;
+    flex-direction: column;
+
+
+}
+/*MEDIA QUERIES*/
+
+@media (min-widht: 430px) {
+    
+}
+
+
+@media (max-widht: 768px) {
+    .img-instagram{ 
+        
+}
 }
