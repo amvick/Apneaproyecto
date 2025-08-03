@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="informacion de contacto, redes sociales y direcciones de locales fisicos">
-
+  <!--AOS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!--Bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
@@ -70,7 +71,7 @@
       Enterate de lanzamientos, promos y tips antes que nadie.</p>
     <section class="grid-container">
       <figure class="figure container">
-        <img src="../img/img-instagram.jpg" class="img-instagram img-responsive" alt="...">
+        <img src="../img/img-instagram.jpg" class="img-instagram img-responsive" alt="imagen representativa de el feed de instragram">
         <figcaption class="figure-caption img-ig"> Instagram oficial .</figcaption>
       </figure>
       <a href="https://www.instagram.com" target="_blank">Instagram</a>
@@ -79,11 +80,11 @@
     <section>
 
       <h2>CONOCÉ NUESTROS LOCALES</h2>
-      <div class="container">
+      <div class="container" data-aos="zoom-in-down">
         <div class="row justify-content-center">
           <div class="col-12 col-md-6 col-lg-4 mb-4">
             <div class="card  h-100 w-100">
-              <img src="../img/local1.jpg" class="card-localcba" alt="...">
+              <img src="../img/local1.jpg" class="card-localcba" alt="imagen de la seccion de ropa deportiva de el local de Cordoba Capital">
               <div class="card-body">
                 <h5 class="card-title">Sucursal Córdoba</h5>
                 <p class="card-text">Av. Hipólito Yrigoyen 325</p>
@@ -91,9 +92,10 @@
               </div>
             </div>
           </div>
+
           <div class="col-12 col-md-6 col-lg-4 mb-4">
             <div class="card  h-100 w-100">
-              <img src="../img/local2.jpg" class="card-localvm" alt="...">
+              <img src="../img/local2.jpg" class="card-localvm" alt="Imagen de la seccion de pijamas en el local de Villa Maria Cordoba">
               <div class="card-body">
                 <h5 class="card-title">Sucursal Villa María</h5>
                 <p class="card-text">Buenos Aires 220</p>
@@ -116,7 +118,6 @@
   </main>
 
   <!--FOOTER-->
-
   <footer class="footer">
     <div>
       <div class="container">
@@ -127,8 +128,13 @@
     </div>
   </footer>
 
-  <!-- Bootstrap JS -->
+  <!-- AOS-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
+  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
     crossorigin="anonymous"></script>

@@ -1,4 +1,5 @@
 @use "../utilities/variables";
+@use "../utilities/mixins";
 
 .btn-outline-success {
   background-color: variables.$color-nav;
@@ -6,66 +7,79 @@
   border: none;
   padding: 8px 16px;
   border-radius: 5px;
-  &:hover{
+
+  &:hover {
     background-color: variables.$color-hover;
   }
 }
 
 
 h1 {
-    color: variables.$color-title;
-    font-size: 42px;
-    font-family: "Playfair; Display", serif;
-    text-decoration: overline;
-    text-align: center;
+  color: variables.$color-title;
+  font-size: 42px;
+  font-family: "Playfair; Display", serif;
+  text-decoration: overline;
+  text-align: center;
+  background-image: linear-gradient(to right, white, rgb(249, 212, 218));
 }
+
 p {
-    font-size: 20px;
-    font-family: "Montserrat", sans-serif;
-    margin: 40px 40px;
-    color: variables.$color-title;
-    padding: 16px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin: 40px 40px;
+  color: variables.$color-title;
+  padding: 16px;
 }
+
 h2 {
-    font-size: 40px;
-    color: rgb(76, 48, 76);
-    text-decoration: underline;
-    padding: 40px 40px;
-    text-align: center;
+  font-size: 40px;
+  color: rgb(76, 48, 76);
+  text-decoration: underline;
+  padding: 40px 40px;
+  text-align: center;
+  background-image: linear-gradient(to right, white, rgb(249, 212, 218));
 }
+
 h3 {
-    font-size: 38px;
-    color: variables.$color-principal;
-    text-align: center;
-    padding: 16px;
-   
-}
-.figure-img{
-    width: 300px;
-}
+  font-size: 38px;
+  color: variables.$color-principal;
+  text-align: center;
+  padding: 16px;
 
-body{
-    background-color: variables.$color-fondo;
-    
 
 }
-.envios{
-    align-items: center;
+
+.figure-img {
+  width: 300px;
+  @include mixins.flex (row, center, center);
+
 }
-.img-instagram{
-    max-width: 350px;
-    align-items: center;
-    justify-content: center;
-    margin: 50px;
-    padding: 30px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-  
+
+body {
+  background-color: variables.$color-fondo;
+
+
 }
-.grid-container{
-    align-items: center;
-    flex-direction: column;
+
+.envios {
+  align-items: center;
+}
+
+.img-instagram {
+  max-width: 350px;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  padding: 30px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.grid-container {
+  align-items: center;
+  flex-direction: column;
 
 }
 
@@ -74,11 +88,12 @@ body{
   margin: 16px auto;
   padding: 16px;
   width: 100%;
-  max-width: 800px; 
+  max-width: 800px;
   height: auto;
 }
-.card-localcba{
-   height: 500px;
+
+.card-localcba {
+  height: 500px;
   object-fit: cover;
   width: 100%;
 
@@ -94,11 +109,12 @@ body{
   .img-talle {
     max-width: 350px;
   }
+
 }
 
 @media (max-width: 1024px) {
   .img-talle {
     max-width: 700px;
   }
-}
 
+}
