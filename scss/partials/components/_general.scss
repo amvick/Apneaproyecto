@@ -21,6 +21,7 @@ h1 {
   text-decoration: overline;
   text-align: center;
   background-image: linear-gradient(to right, white, rgb(249, 212, 218));
+  @include mixins.spacing (margin, padding)
 }
 
 p {
@@ -29,6 +30,7 @@ p {
   margin: 40px 40px;
   color: variables.$color-title;
   padding: 16px;
+  color: black;
 }
 
 h2 {
@@ -44,7 +46,7 @@ h3 {
   font-size: 38px;
   color: variables.$color-principal;
   text-align: center;
-  padding: 16px;
+  @include mixins.spacing (margin, padding)
 
 
 }
@@ -57,7 +59,6 @@ h3 {
 
 body {
   background-color: variables.$color-fondo;
-
 
 }
 
@@ -96,7 +97,6 @@ body {
   height: 500px;
   object-fit: cover;
   width: 100%;
-
 }
 
 .card-localvm {
@@ -117,4 +117,23 @@ body {
     max-width: 700px;
   }
 
+
+}
+.link-img{
+  color: rgb(243, 130, 149);
+  padding: 20px 30px;
+  border-radius: 18px;
+  margin:18px 20px 20px 20px ;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+
+}
+.medidas{
+  @include mixins.spacing(margin,padding);
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  border: 8px;
+  color: black;
 }

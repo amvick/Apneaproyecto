@@ -37,6 +37,8 @@ h1 {
   text-decoration: overline;
   text-align: center;
   background-image: linear-gradient(to right, white, rgb(249, 212, 218));
+  margin: 18px 18px 18px 18px;
+  padding: 15px 15px 15px 15px;
 }
 
 p {
@@ -45,6 +47,7 @@ p {
   margin: 40px 40px;
   color: rgb(15, 14, 14) L;
   padding: 16px;
+  color: black;
 }
 
 h2 {
@@ -60,7 +63,8 @@ h3 {
   font-size: 38px;
   color: rgb(230, 139, 178);
   text-align: center;
-  padding: 16px;
+  margin: 18px 18px 18px 18px;
+  padding: 15px 15px 15px 15px;
 }
 
 .figure-img {
@@ -126,6 +130,26 @@ body {
     max-width: 700px;
   }
 }
+.link-img {
+  color: rgb(243, 130, 149);
+  padding: 20px 30px;
+  border-radius: 18px;
+  margin: 18px 20px 20px 20px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.medidas {
+  margin: 18px 18px 18px 18px;
+  padding: 15px 15px 15px 15px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  border: 8px;
+  color: black;
+}
+
 .footer {
   background-color: rgb(249, 236, 236);
   text-align: center;
