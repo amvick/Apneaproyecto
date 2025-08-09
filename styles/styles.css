@@ -34,9 +34,9 @@ h1 {
   color: rgb(15, 14, 14) L;
   font-size: 42px;
   font-family: "Playfair; Display", serif;
-  text-decoration: overline;
+  text-decoration: none;
   text-align: center;
-  background-image: linear-gradient(to right, white, rgb(249, 212, 218));
+  background-image: linear-gradient(to right, white, rgb(255, 231, 235));
   margin: 18px 18px 18px 18px;
   padding: 15px 15px 15px 15px;
 }
@@ -51,17 +51,17 @@ p {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 32px;
   color: rgb(76, 48, 76);
-  text-decoration: underline;
-  padding: 40px 40px;
+  text-decoration: none;
+  padding: 20px 20px;
   text-align: center;
   background-image: linear-gradient(to right, white, rgb(249, 212, 218));
 }
 
 h3 {
-  font-size: 38px;
-  color: rgb(230, 139, 178);
+  font-size: 28px;
+  color: rgb(174, 95, 129);
   text-align: center;
   margin: 18px 18px 18px 18px;
   padding: 15px 15px 15px 15px;
@@ -73,10 +73,6 @@ h3 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-
-body {
-  background-color: rgb(255, 253, 250);
 }
 
 .envios {

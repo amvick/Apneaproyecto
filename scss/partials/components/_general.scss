@@ -18,9 +18,9 @@ h1 {
   color: variables.$color-title;
   font-size: 42px;
   font-family: "Playfair; Display", serif;
-  text-decoration: overline;
+  text-decoration: none;
   text-align: center;
-  background-image: linear-gradient(to right, white, rgb(249, 212, 218));
+  background-image: linear-gradient(to right, white, rgb(255, 231, 235));
   @include mixins.spacing (margin, padding)
 }
 
@@ -34,31 +34,24 @@ p {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 32px;
   color: rgb(76, 48, 76);
-  text-decoration: underline;
-  padding: 40px 40px;
+  text-decoration: none;
+  padding: 20px 20px;
   text-align: center;
-  background-image: linear-gradient(to right, white, rgb(249, 212, 218));
+  background-image: linear-gradient(to right, white, rgb(255, 231, 235));
 }
 
 h3 {
-  font-size: 38px;
+  font-size: 28px;
   color: variables.$color-principal;
   text-align: center;
   @include mixins.spacing (margin, padding)
-
-
 }
 
 .figure-img {
   width: 300px;
   @include mixins.flex (row, center, center);
-
-}
-
-body {
-  background-color: variables.$color-fondo;
 
 }
 
@@ -119,18 +112,20 @@ body {
 
 
 }
-.link-img{
+
+.link-img {
   color: rgb(243, 130, 149);
   padding: 20px 30px;
   border-radius: 18px;
-  margin:18px 20px 20px 20px ;
+  margin: 18px 20px 20px 20px;
   font-size: 20px;
   text-align: center;
   text-decoration: none;
 
 }
-.medidas{
-  @include mixins.spacing(margin,padding);
+
+.medidas {
+  @include mixins.spacing(margin, padding);
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   list-style: none;
