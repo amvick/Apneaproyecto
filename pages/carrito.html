@@ -76,29 +76,45 @@
                 <h5 class="card-title">Set Ambar</h5>
             </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item">Talle:M</li>
-                <li class="list-group-item">Color: Menta</li>
-                <li class="list-group-item">Cantidad: 1</li>
+                <li class="list-group-item" id="productTalle">Talle:M</li>
+                <li class="list-group-item" id="productColor">Color: Menta</li>
             </ul>
             <button id="decrementar">−</button>
             <button id="incrementar">+</button>
 
             <div class="card-body">
-                <a href="./coleccion2025.html" class="card-link">Agregar mas productos</a>
             </div>
             <div id="cart-items" class="cart-items"></div>
             <div class="summary">
                 <div class="muted">Items: <span id="cart-count">1</span></div>
-                <div>Total: <strong id="cart-total">$60.000</strong></div>
-                <button id="clear-cart" class="remove">Vaciar carrito</button>
-                <button id="checkout" class="checkout">Finalizar compra</button>
+                <div>Total: <strong id="cart-total">60.000</strong></div>
+
+                <label for="selectTalle">Cambiar de talle</label>
+                <select id="selectTalle">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                </select>
+
+                <label for="selectColor">Cambiar de color:</label>
+                <select id="selectColor">
+                    <option value="Menta">Menta</option>
+                    <option value="Negro">Negro</option>
+                    <option value="Rojo">Camel</option>
+                </select>
+
+                
+                 <a href="./coleccion2025.html" class="card-link">Ver productos similares</a>
+                 <button id="clear-cart" class="remove">Vaciar carrito</button>
+                 <button id="checkout" class="checkout">Finalizar compra</button>
+                 <button id="submit"> Agregar mas productos</button>
+    
 
             </div>
 
 
-
+            <div id="productsContainer"></div>
             <script src="../app.js"></script>
-
 
 </body>
 
