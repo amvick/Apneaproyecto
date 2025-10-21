@@ -1,17 +1,4 @@
-console.log("Bienvenido a tu carrito de compras");
 
-prompt("Ingresa tu usuario");
-//VARIABLES//
-let claveUsuario = "";
-let contraseña ="123";
-let intentosClave ="(0)";
-
-function mostrarCarrito() {
-    console.log("¡Tu carrito de compras te espera!");
-
-} 
-
-confirm("¿Queres continuar con la compra?")
 
 let carrito= [];
 
@@ -47,5 +34,20 @@ buttonDecrementar.addEventListener("click", () => {
   if (carrito[0].cantidad > 1) {
     carrito[0].cantidad--; 
     actualizarCarrito();
+  }
+});
+
+Swal.fire({
+  title: "¿Queres continuar con la compra?",
+  showDenyButton: true,
+  showCancelButton: true,
+  confirmButtonText: "Si",
+  denyButtonText: `no`
+}).then((result) => {
+  /* Read more about isConfirmed, isDenied below */
+  if (result.isConfirmed) {
+    Swal.fire("Saved!", "", "success");
+  } else if (result.isDenied) {
+    Swal.fire("Changes are not saved", "", "info");
   }
 });
