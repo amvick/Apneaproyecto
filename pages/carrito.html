@@ -8,8 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<!-- SWEETALERT2-->
 
-    <!--CSS-->
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+ <!--CSS-->
     <link rel="stylesheet" href="../styles/styles.css">
     <title>APNEA | CARRITO DE COMPRAS</title>
 </head>
@@ -69,6 +72,10 @@
 
         <h1>CARRITO DE COMPRAS</h1>
         <h2>Mi Carrito</h2>
+
+        <!--Renderizacion inicial-->
+        <div id="output"></div>
+
         <div class="container-fluid" style="width: 18rem;">
             <img src="https://i.pinimg.com/1200x/b6/73/02/b6730257fb62ad4aa82dabc7a0ccdf06.jpg" class="card-img-top"
                 alt="...">
@@ -132,7 +139,8 @@
             
             <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-            <script src="../app.js"></script>
+            <script  type="module" src="../app.js"></script>
+            
 </body>
 
 </html>
